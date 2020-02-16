@@ -37,7 +37,6 @@ cp -Rp \
     ~/.z   \
         ~/migration/home
 
-cp -Rp ~/Documents ~/migration
 
 cp -Rp /Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist ~/migration/rootLibrary/Preferences/SystemConfiguration/ # wifi
 
@@ -48,7 +47,6 @@ cp -Rp ~/Library/Services ~/migration/Library/ # automator stuff
 cp -Rp ~/Library/Fonts ~/migration/Library/ # all those fonts you've installed
 
 # editor settings & plugins
-cp -Rp ~/Library/Application\ Support/Sublime\ Text\ * ~/migration/Library/"Application Support"
 cp -Rp ~/Library/Application\ Support/Code\ -\ Insider* ~/migration/Library/"Application Support"
 
 # also consider...
